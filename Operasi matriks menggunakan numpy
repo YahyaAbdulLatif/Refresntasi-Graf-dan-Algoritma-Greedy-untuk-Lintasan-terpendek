@@ -1,0 +1,17 @@
+#Operasi matriks menggunakan numpy
+M1 = np.array([[1, 2], [3, 4]])
+M2 = np.array([[5, 6], [7, 8]])
+
+M_tambah = M1 + M2
+M_kurang = M1 - M2
+M_kali = np.dot(M1,M2)
+M_transpose = M1.T
+print(M1[0][1])
+Z = np.zeros((3, 3))
+I = np.eye(3)
+print(M_tambah)
+print(M_kurang)
+print(M_kali)
+print(M_transpose)
+print(Z)
+print(I)
